@@ -1,6 +1,10 @@
 # Form
 
-<img src="./asstes/desafio-1-CSS" alt="Form-Image">
+<p>That's my first form with html and CSS</p>
+
+<img src="./assets/desafio-1-CSS.jpg" width="350px" alt="Form-Image">
+
+<br>
 
 ## 🤝 Colaboradores
 
