@@ -10,7 +10,7 @@
       <a href="#">
         <img src="https://avatars3.githubusercontent.com/mauricio-bs" width="100px;" alt="Photo of Mauricio Schimit on GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Mauricio Schimit</b>
         </sub>
       </a>
     </td>
