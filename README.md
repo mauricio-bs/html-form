@@ -6,7 +6,7 @@
 
 <br>
 
-## 🤝 Colaboradores
+## 🤝 Colaborators
 
 <table>
   <tr>
