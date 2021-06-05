@@ -1,6 +1,6 @@
 # Form
 
-<img src="exemplo-image.png" alt="./assets/desafio-1-CSS">
+<img src="./asstes/desafio-1-CSS" alt="Form-Image">
 
 ## 🤝 Colaboradores
 
