@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./sytles-1.css" />
+		<title>Formulario</title>
+	</head>
+	<body>
+		<form action="" method="POST">
+            <h1>Cadastro</h1>
+			<label
+				>Nome:
+				<input class="inp"
+					type="text"
+					name="nome"
+					placeholder="Insira seu nome"
+					required
+				/>
+			</label>
+			<label
+				>Email:
+				<input class="inp"
+					type="email"
+					name="email"
+					placeholder="Insira seu email"
+					required
+				/>
+			</label>
+			<label>
+                Idade:
+				<input class="inp" type="number" name="idade" min="12" required />
+			</label>
+			<label
+				>Data de nascimento:
+				<input class="inp" type="date" name="calendario" required />
+			</label>
+			<label class="social-media">
+                Onde você possui conta:
+				<label>
+					<input class="social-media" type="checkbox" name="social-media" value="instagram" />
+					Instagram
+					<input class="social-media" type="checkbox" name="social-media" value="facebook" />
+					Facebook
+					<input class="social-media" type="checkbox" name="social-media" value="youtube" />
+					Youtube
+				</label>
+			</label>
+			<label
+				>Sexo:
+				<input
+					class="gender"
+					type="radio"
+					name="genero"
+					value="masculino"
+					required
+				/>
+				Masculino
+				<input
+					class="gender"
+					type="radio"
+					name="genero"
+					value="feminino"
+					required
+				/>
+				Feminino
+			</label>
+			<label
+				>Cor dos Olhos:
+				<input type="color" name="cor-olhos" required />
+			</label>
+			<label>
+                Biografia:
+				<textarea class="inp" name="bio" cols="30" rows="5" required></textarea>
+			</label>
+			<label>
+                Foto do perfil:
+				<input type="file" name="foto-perfil" accept="image/*" required />
+			</label>
+			<label>
+                Telefone:
+				<input class="inp" type="tel" name="tel" required />
+			</label>
+			<label>
+                Link do Perfil do Facebook:
+				<input class="inp" type="url" name="facebook" required />
+			</label>
+			<label>
+                Senha:
+				<input
+                    class="inp"
+					type="password"
+					name="senha"
+					minlength="6"
+					maxlength="8"
+					required
+				/>
+			</label>
+			<button class="reset" type="reset">Limpar</button>
+			<button class="enviar-dados" type="submit">Enviar Dados</button>
+		</form>
+	</body>
+</html>
